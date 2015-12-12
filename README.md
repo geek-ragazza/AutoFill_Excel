@@ -48,7 +48,7 @@
  
 ### 檢查採購部最新檔案建立/更新 時間
 
-  [Source Code](Project_Evaluate_Excel/Procurement_Update_Time/Last_Update.py)
+  [Source Code](https://github.com/geek-ragazza/Project_Evaluate_Excel/blob/master/Procurement_Update_Time/Last_Update.py)
   
   [User Guidance](https://geek-ragazza.gitbooks.io/python-for-project-evaluate-excel/content/Search_History/cai_gou_bu_zui_xin_geng_xin_shi_jian.html)
 
