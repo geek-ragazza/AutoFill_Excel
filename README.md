@@ -23,7 +23,7 @@
   
   [上海滬銅](http://market.cnal.com/changjiang/) 
   
-  公司內部外幣價格 (需登入)
+  [公司內部外幣價格 (需登入)](http://www.ctci.com.tw/Acc_Rep/rate/rate.asp)
   
   [國際西德州原油](http://web3.moeaboe.gov.tw/oil102/oil1022010/A00/Oil_Price2.asp)
   
