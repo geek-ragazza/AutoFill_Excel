@@ -52,5 +52,11 @@
   
   [User Guidance](https://geek-ragazza.gitbooks.io/python-for-project-evaluate-excel/content/Search_History/cai_gou_bu_zui_xin_geng_xin_shi_jian.html)
 
-  
+###Excel 內容搜尋
+
+[建立所有EXCEL資料](https://github.com/geek-ragazza/Project_Evaluate_Excel/blob/master/Search_to_Excel/database_update.py)
+
+[依照Search Key 計算出現次數](https://github.com/geek-ragazza/Project_Evaluate_Excel/blob/master/Search_to_Excel/ExcelCell_Training.py)
+
+[匯出Excel連結檔](https://github.com/geek-ragazza/Project_Evaluate_Excel/blob/master/Search_to_Excel/Export_Cell_Result.py)
 
