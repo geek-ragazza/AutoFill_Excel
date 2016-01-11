@@ -8,6 +8,7 @@ import numpy as np
 import gc
 import os
 import datetime
+from datetime import date, timedelta
 
 #variable
 
@@ -82,8 +83,8 @@ def execute(Balance_Sheet_Path, Tre0Uno_Sheet_Path, ManHour_Path, ACHour_Path, P
 
 
 
-    d = datetime.date.today()
-    SheetMonth = '{:02d}'.format(d.month-1)
+    d = datetime.date.today()- timedelta(days=20)
+    SheetMonth = '{:02d}'.format(d.month)
     SheetYear = format(d.year)[2:]
     MH_SheetName=('%s%s' % (SheetYear, SheetMonth))
     print MH_SheetName
