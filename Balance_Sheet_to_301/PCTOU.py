@@ -293,12 +293,12 @@ def execute(Balance_Sheet_Path, Tre0Uno_Sheet_Path, ManHour_Path, ACHour_Path, P
             MH_Data = int(MH_Arr[mhTrueIX][1])
             print mhcheck, MH_Arr[mhTrueIX][1] ,FillInQuery[mhQueryIX][2]
             #Check the Comment Month
-            if str(format(d.month-1)) not in FillinTargetComment:
+            if str(format(d.month)) not in FillinTargetComment:
                 # Update and Change the Comment
                 print "Update"
                 OValue = Range(FillinTargetRange).value
                 Range(FillinTargetRange).value = OValue + MH_Data
-                Range(FillinTargetRange).comment = str(format(d.month-1))
+                Range(FillinTargetRange).comment = str(format(d.month))
             
 
     #fill in other fee
