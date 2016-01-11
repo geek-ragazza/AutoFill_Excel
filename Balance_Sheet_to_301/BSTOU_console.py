@@ -4,6 +4,7 @@ import pandas
 import os.path, time
 import os, sys
 import datetime
+from datetime import date, timedelta
 import shutil
 from Tkinter import *
 from tkFileDialog import askopenfilename,askdirectory     
@@ -24,8 +25,8 @@ except:
 ACC_Path='\\\\Ecs01\\ddd00\\Dept\\成本\\5-益鼎專案成本\\結帳用資料\\工時\\2015年.xls'
 ACC_Path=unicode(ACC_Path,'utf8')
 
-d = datetime.date.today()
-SheetMonth = '{:02d}'.format(d.month-1)
+d = datetime.date.today()- timedelta(days=20)
+SheetMonth = '{:02d}'.format(d.month)
 SheetYear = format(d.year)
 
 ACC_OriginalName = str(format(d.year)) + '年.xls'
@@ -96,7 +97,7 @@ if __name__ == "__main__":
 
         TimeName = Label(F1, text="工時成本資料為")
         TimeName.grid(row = 0, column = 3)
-        YMCombine = str(format(d.year)) + "年" + str(format(d.month-1))+ "月"
+        YMCombine = str(format(d.year)) + "年" + str(format(d.month))+ "月"
         Timenow = Label(F1, text=YMCombine)
         Timenow.grid(row = 1, column = 3)
         #Set Search directory
